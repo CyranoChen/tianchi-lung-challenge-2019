@@ -1,0 +1,10 @@
+version: '3'
+services:
+    tianchi2019: # no gpu version
+        container_name: tianchi2019
+        image: tensorflow/tensorflow:latest-gpu-py3-jupyter
+        ports:
+            - "9001:8888"
+        volumes:
+            - /home:/tf
+            - ./jupyter_notebook_config.json:/root/.jupyter/jupyter_notebook_config.json
