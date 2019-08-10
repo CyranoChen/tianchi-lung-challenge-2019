@@ -1,0 +1,2 @@
+model_checkpoint_path: "weights-e045-0.3238.hd5"
+all_model_checkpoint_paths: "weights-e045-0.3238.hd5"
